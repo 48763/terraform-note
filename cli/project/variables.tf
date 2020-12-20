@@ -1,6 +1,6 @@
 variable "project" {
     type    = string
-    default = "thor-270708"
+    default = ""
 }
 
 variable "credential_json" {
