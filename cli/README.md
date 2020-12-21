@@ -9,12 +9,12 @@
 - Check gcp plugin version `terraform --version` 
 - Apply terrform [yaml](#) `terraform apply`
 
-## Configure
+## [Configure][1]
 
 ### example
 
 ```
-terraform {
+terraform { 
 	backend "remote" {
 		organization = ""
 
@@ -27,8 +27,16 @@ terraform {
 
 ## 參考
 
+### Format 1
+
 [Terraform, Import Terraform configuration, English](https://learn.hashicorp.com/tutorials/terraform/state-import)
 
 [Chrisst, Getting started with Terraform on Google Cloud, English](https://cloud.google.com/community/tutorials/getting-started-on-gcp-with-terraform)
 
 [Hashicorp, Get Started - Google Cloud, English](https://learn.hashicorp.com/terraform)
+
+### Format 2
+
+[1]: https://learn.hashicorp.com/tutorials/terraform/state-import "Terraform, Import Terraform configuration, English"
+[2]: https://cloud.google.com/community/tutorials/getting-started-on-gcp-with-terraform "Chrisst, Getting started with Terraform on Google Cloud, English"
+[3]: https://learn.hashicorp.com/terraform "Hashicorp, Get Started - Google Cloud, English"
